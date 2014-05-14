@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="appname">Budzgo</string>
+	<string name="sign_in">Sign In</string>
+	<string name="get_verified">Get Verified</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="get_verification">Verification</string>
+	<string name="email_hint_text">Email</string>
+	<string name="password_hint_text">Password</string>
+	<string name="forgot_password">Forgot Password?</string>
+	<string name="username_hint_text">Username</string>
+	<string name="minchar_label">Minimum 7 Characters Required</string>
+	<string name="confirm_password_hint_text">Confirm Password</string>
+	<string name="get_verified_lbl">Get Verified</string>
+	<string name="optional_lbl">(Optional)</string>
+	<string name="create_account_lbl">Create Account</string>
+	<string name="terms_lbl">By tapping Create Account you agree to the\nTERMS OF USE, PRIVACY POLICY and Validate that information above is correct.</string>
+	<string name="forgot_password_title">Forgot Password</string>
+	<string name="forgot_password_hint_text">Registered Email</string>
+	<string name="forgot_password_submit">Submit</string>
+	<string name="skip_lbl">Skip</string>
+	<string name="input_verification_code_hint_text">Verification Code</string>
+	<string name="choose_one">Choose One</string>
+	<string name="vefrify_today">Get Verified today</string>	
+	<string name="upgrade_btn">Upgrade</string>
+	<string name="cancel_btn">Cancel</string>
+</resources>

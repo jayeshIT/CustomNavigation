@@ -1,0 +1,52 @@
+{
+	"global": {
+		"FontSize": {
+			"F30": 30,
+			"F19": 19,
+			"F16": 16,
+			"F15": 15,
+			"F14": 14,
+			"F13": 13,
+			"F12": 12,
+			"F11": 11,
+			"F10": 10,
+			"F7": 7
+		},
+		"AppColors_default": {
+			"color_winBackground": "#FAFAFA",
+			"color_white": "#FFFFFF",
+			"color_black": "#000000",
+			"color_green_singin": "#9ECE52",
+			"color_green_verified": "#7AA20D",
+			"color_green_signup": "#006E53",
+			"color_startupbackground": "#64A13A",
+			"color_title": "#FFFFFF",
+			"color_header": "#A6CE39",
+			"color_textField_font": "#7B7B7B",
+			"color_textField_border": "#979797",
+			"color_label_maxchar": "#A8A7A7",
+			"color_label_error_red": "#FF0000",
+			"color_label_terms": "#686868",
+			"color_label_green_verification": "#7AA20D",
+			"color_label_verifiaction_gray": "#7F7F7F",
+			"color_view_verification": "#909090",
+			"color_popup": "#C7D79B",
+			"color_popup_border": "#767676"
+		},
+		"FontFamily": {
+			"open_sans_regular": "OpenSans",
+			"open_sans_regular_italic": "OpenSans-Italic",
+			"open_sans_bold": "OpenSans-Bold",
+			"open_sans_semi_bold": "OpenSans-Semibold",
+			"open_sans_bold_italic": "OpenSans-BoldItalic"
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {}
+}

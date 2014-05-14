@@ -1,0 +1,33 @@
+"#nanBarContainer":{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 40,
+	backgroundColor: Alloy.CFG.AppColors_default.color_header
+},
+"#win_title":
+{
+	textAlign: 'center',
+	color: Alloy.CFG.AppColors_default.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F19,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	}
+},
+"#leftBtn":
+{
+	left: 10,
+	width: 12,
+	height: 22
+},
+"#rightBtn":
+{
+	right: 8,
+	color: Alloy.CFG.AppColors_default.color_title,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F15,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	}
+}

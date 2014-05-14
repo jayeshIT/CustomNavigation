@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win_sign_in">
+		<Require type="view" src="android_header" id="navBar" platform="android" />
+		<View id="container_view">
+			<TextField id="email_txt"/>
+			<TextField id="password_txt"/>
+			<Button id="sign_in_btn"/>
+			<Label id="forgot_password_lbl"/>
+		</View>
+	</Window>
+</Alloy>

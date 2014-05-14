@@ -1,0 +1,9 @@
+<Alloy>
+
+	<Window id="win_home">
+		<View id="container_view_home">
+			<Button id="sign_in_btn" class="rectangle_btn" onClick="doSignInClick"/>
+		</View>
+	</Window>
+
+</Alloy>

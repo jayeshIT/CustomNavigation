@@ -1,0 +1,80 @@
+"Window":
+{
+	fullscreen: false,
+	navBarHidden: false,
+	navTintColor: Alloy.CFG.AppColors_default.color_title,
+	barColor: Alloy.CFG.AppColors_default.color_header,
+	tintColor: Alloy.CFG.AppColors_default.color_title,
+	backgroundColor: Alloy.CFG.AppColors_default.color_winBackground,
+	titleAttributes:{
+		color: Alloy.CFG.AppColors_default.color_title,
+		font: {
+			fontSize: Alloy.CFG.FontSize.F19,
+			fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+			fontWeight: "normal"
+		}
+	}
+},
+"NavigationWindow":{
+	backgroundColor: Alloy.CFG.AppColors_default.color_header
+},
+'Button':{
+	color: Alloy.CFG.AppColors_default.color_title,
+	backgroundColor: Alloy.CFG.AppColors_default.color_header,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	},
+	height: 30
+},
+'Label':{
+	color: Alloy.CFG.AppColors_default.color_textField_font,
+	textAlign: 'left',
+	font: {
+		fontSize: Alloy.CFG.FontSize.F12,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+'TextField':{
+	backgroundColor: Alloy.CFG.AppColors_default.color_winBackground,
+	borderWidth: 0.5,
+	paddingLeft: 5,
+	paddingRight: 5,
+	color: Alloy.CFG.AppColors_default.color_textField_font,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	},
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	//height: 30,
+	height : 31,
+	borderColor: Alloy.CFG.AppColors_default.color_textField_border
+}
+'TextArea':{
+	backgroundColor: Alloy.CFG.AppColors_default.color_textField_bg,
+	borderRadius: 2,
+	paddingLeft: 10,
+	paddingRight: 10,
+	color: Alloy.CFG.AppColors_default.color_font_Dark,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	},
+	height: 100
+},
+"#container_view":
+{
+	top: 54,
+	left: 10,
+	right: 10,
+	layout: 'vertical',
+	height: Ti.UI.SIZE
+}

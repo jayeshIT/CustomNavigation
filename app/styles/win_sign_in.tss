@@ -1,0 +1,30 @@
+"#win_sign_in":{
+	title: L( 'sign_in'),
+	backgroundColor: Alloy.CFG.AppColors_default.color_winBackground
+},
+"#email_txt":
+{
+	left: 0,
+	right: 0,
+	hintText: L( 'email_hint_text')
+},
+"#password_txt":
+{
+	top: 8,
+	left: 0,
+	right: 0,
+	hintText: L( 'password_hint_text'),
+	returnKeyType: Titanium.UI.RETURNKEY_DONE
+},
+"#sign_in_btn":
+{
+	top: 24,
+	width: 100,
+	backgroundImage: '/images/sign_in_button.png',
+	title: L( 'sign_in')
+},
+"#forgot_password_lbl":
+{
+	top: 5,
+	color: Alloy.CFG.AppColors_default.color_textField_font
+}

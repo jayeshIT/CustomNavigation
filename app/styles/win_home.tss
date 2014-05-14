@@ -1,0 +1,28 @@
+"#win_home":{
+	exitOnClose: true,
+	navBarHidden: true,
+	backgroundImage: '/images/home_background.png'
+},
+"#container_view_home":
+{
+	top: 192,
+	left: 61,
+	right: 61,
+	layout: 'vertical',
+	height: Ti.UI.SIZE
+},
+".rectangle_btn":
+{
+	height: 35,
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: Alloy.CFG.FontSize.F14,
+		fontFamily: Alloy.CFG.FontFamily.open_sans_regular,
+		fontWeight: "normal"
+	}
+},
+"#sign_in_btn":
+{
+	backgroundColor: Alloy.CFG.AppColors_default.color_green_singin,
+	title: L( 'sign_in')
+}
